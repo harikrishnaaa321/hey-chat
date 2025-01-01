@@ -7,7 +7,7 @@ export default defineConfig({
   server: {
     port: 3000,
     proxy: {
-      "/api": { target: "https://hey-chat-backend-mu.vercel.app/" },
+      "/api": { target: "https://hey-chat-backend-mu.vercel.app" },
     },
   },
 });
